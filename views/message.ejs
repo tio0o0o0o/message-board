@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="/css/message.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="/new">NEW</a>
+    </nav>
+    <main>
+      <p>Username: <%= message.user %></p>
+      <p>Message: <%= message.text %></p>
+      <p>Time: <%= message.added %></p>
+    </main>
+  </body>
+</html>

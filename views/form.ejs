@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="/css/form.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="/new">NEW</a>
+    </nav>
+    <form action="/new" method="POST">
+      <input type="text" required name="user" placeholder="Username" id="user-input">
+      <textarea rows="6" name="text" cols="50" required placeholder="Messages..." id="message-input"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
